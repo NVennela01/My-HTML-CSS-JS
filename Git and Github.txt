@@ -5,3 +5,25 @@ Second goto github.com and create an account by signup. create a repository also
 Actual Process:
 open terminal--->new terminal--->goto specific folder
 1. git init - it will initiate git into your folder.After doing this it gives U means untracked. 
+2.git add . - it will add all the files into git.
+3.git commit -m "update" - it will commit your git and add a message update.
+
+First time you may end uo git config errors. To solve like these error
+
+git config --global user.email "you@example.com" git config --global user.name "Your Name"
+
+to set your account's default identity.
+
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Lenovo@SERVER.(none)')
+
+to solve it do following commands:
+
+git config --global user.email "your email id"
+git config --global user.name "username"
+
+After this try  git add . and git commit -m " " again
+4.git remote add origin "link"
+5.git push  -u origin master
+

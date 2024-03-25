@@ -14,37 +14,71 @@ element must contain only one id and it should be unique-->
 <html>
   <head>
     <title>Schemantic Elements</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+      body
+      {
+        background-color: rgb(241, 234, 234);
+      }
+      h2{
+        color: rgb(74, 74, 170);;
+      }
+      h3
+      {
+        color: rgb(74, 74, 170);
+      }
+      div
+      {
+        background-color: rgb(239, 220, 220);
+      }
+    </style>
   </head>
   <body>
     <!--<a href="./pdf name"  download>click for download</a>-->
-    <header>
+    <a href="#Header">Home</a>
+    <a href="#Career">Career</a>
+    <a href="#Education" >Education</a>
+    <a href="#Projects" >Projects</a>
+    <a href="#Skills" >Skills</a>
+    <a href="#Personal">Personal Details</a>
+    <header id="Header">
       <h1>Vennela Nomula</h1>
-        <table>
-          <tr>
-            <td>
-              <address>
-               <p>
-                Prashanthi hills , Rd No:12,<br>
-                Meerpet,Hyderabad,<br>
-                Telangana 500097.<br>
-                </p>
-              </address>
-              <p><strong>Mail:</strong><a href="mailto:vennelanomula01@gmail.com">vennelanomula01@gmail.com</a></p>
-              <p><strong>Phone:</strong><a href="tel:9059109712">9059109712</a></p>
-            </td>
-          </tr>
-        </table>  
-    </header>
+      <table style="width: 70%;">
+        <tr>
+          <td>
+            <address>
+              <p>
+               Prashanthi hills , Rd No:12,<br>
+               Meerpet,Hyderabad,<br>
+               Telangana 500097.<br>
+               </p>
+             </address>
+               <a href="mailto:vennelanomula01@gmail.com"><i class="fa-solid fa-envelope" style="color: rgba(238, 121, 121, 0.973)";></i></a>&nbsp;
+              <a href="tel:9059109712"><i class="fa-solid fa-phone" style="color: black;"></i></a>&nbsp;
+              <a href="https://github.com/NVennela01/My-HTML-CSS-JS.git"><i class="fa-brands fa-github" style="color: black;"></i></a>&nbsp;
+              <a href="https://www.linkedin.com/in/vennela-nomula-98074a284/"><i class="fa-brands fa-linkedin" style="color: rgb(43, 43, 177);"></i></a>&nbsp;
+          </td>
+          <td>
+            <img src="./images/profile avatar - Copy.avif" alt="img" height="80">
+          </td>
+        </tr>
+      </table>
+                </td>
+              </tr>
+             </table>
+
+    </header><hr>
     <main>
       <div id="Career">
          <h3>Career Objective</h3>
          <p>
-          Eager and motivated fresher seeking a challenging role in the software field to demonstrate my passion, dedication, and rapid learning ability in contributing to innovative projects and continuous professional growth.
+          Seeking an entry-level position in software development to apply my technical skills and knowledge gained through education. Eager and motivated fresher ready for a challenging role in the software field to demonstrate my passion, dedication, and rapid learning ability in contributing to innovative projects and continuous professional growth.
          </p>
-      </div>
+      </div><hr>
       <div id="Education">
         <h3>Education</h3>
-         <table border="1">
+         <table border="1" style="width: 60%;">
              <tr>
               <th>Sno.</th>
               <th>Qualification</th>
@@ -70,7 +104,7 @@ element must contain only one id and it should be unique-->
               <td>2017</td>
              </tr> 
          </table>  
-      </div>
+      </div><hr>
       <div id="Projects">
         <h3>Projects</h3>
         <p>
@@ -79,15 +113,15 @@ element must contain only one id and it should be unique-->
           The system combines the benefits of wind and solar energy to provide a reliable and sustainable source of 
           power, reducing the dependence on fossil fuels and the grid.  
         </p>
-      </div>
-      <div id="skills">
+      </div><hr>
+      <div id="Skills">
          <h3>Skills:</h3>
          <ul>
          <li>Java</li>
          <li>Html</li>
          <li>CSS</li>
         </ul> 
-      </div>
+      </div><hr>
       <div id="Internship">
         <h2>Internship</h2>
         <h3>Campalin</h3>
@@ -97,15 +131,15 @@ element must contain only one id and it should be unique-->
             projects, and delivered a presentation on K-Nearest Neighbors Algorithm. I completed assignments and 
             worked on a stock market prediction project, gaining valuable experience.
         </p>
-      </div>
+      </div><hr>
       <div id="Achivements">
         <h3>Achivements</h3>
         <p>NIC – NATIONAL INTEGRATION CAMP ,which was held at JNTU Sultanpur.Where people from all over the 
           states of India gather together for seven days and represent their state and culture.</p>
         <p>Participation in college fest as TREAURE HUNT game Team leader and planner.</p>
         <p>Participation Certificate of GENOS 22-A National Level TRIVIA QUIZ conducted by JNTUH. </p>
-      </div>
-      <div id="personal">
+      </div><hr>
+      <div id="Personal">
         <h3>Personal Details:</h3>
         <table>
           <tr>
@@ -121,8 +155,9 @@ element must contain only one id and it should be unique-->
             <td>English,Hindi,Telugu</td>
           </tr>
         </table>
-      </div>  
+      </div><hr>
     </main>
+    <br>
     <footer>
       This site is made in 2024 
     </footer>

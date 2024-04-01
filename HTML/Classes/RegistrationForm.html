@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+<style>
+  h1{
+    text-align: center;
+  }
+  body
+  {
+    background-color: rgba(245, 247, 190, 0.639);
+  }
+  div,#r
+  {
+   
+   padding-left: 200px;
+   padding-right: 200px;
+   position: relative;
+  }
+</style>
+  </head>
+  <body>
+    <h1><u>Registration Form</u> </h1><br>
+    <div>
+        <label for="First">First Name:</label>
+        <input type="text" id="First" name="First" placeholder="Firstname">
+       <br><br><hr>
+
+        <label for="last">Last Name:</label>
+        <input type="text" id="last" name="last" placeholder="Lastname">
+        <br><br><hr>
+
+        <label for="DOB">Date of Birth</label>
+        <input type="date" name="DOB"><br><br><hr>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Male">Female
+        <input type="radio" name="gender" value="Male">Other
+        <br><br><hr>
+
+        <label>Course</label>
+        <select name="" id="">
+         <option value="">choose course</option>   
+          <option value="CSE">CSE</option>
+          <option value="ECE">ECE</option>
+          <option value="IT">IT</option>
+          <option value="EEE">EEE</option>
+          <option value="CIVIL">CIVIL</option>
+          <option value="MECH">MECH</option>
+        </select>
+           <br><br><hr>
+         <label for="email">Email:</label>
+          <input type="email" id="email"name="email" placeholder="enter your email "/>
+          <br><br><hr>
+        <label for="password">Password:</label>  
+        <input type="password" id="password" name="password" placeholder="Password">
+        &nbsp;
+        <label for="repassword">Re-type password:</label>
+        <input type="password" id="repassword" name="repassword" placeholder="Re-type password">
+        <br><br><hr>
+
+        <label for="mobile">Contact:</label>
+        <input type="text" id="mobile" name="mobile" maxlength="10" placeholder="mobile no."><br><br><hr>
+
+        <label for="">Enter Address:</label>
+       <textarea name="" id="" cols="30" rows="5"></textarea>
+        <br><br><hr>
+        <button type="submit" style="font-size: 18px; margin-left: 50%; background-color: rgba(225, 228, 146, 0.639) ;">
+          Register
+      </button>
+      </form>
+    </div>   
+  </body>
+</html>

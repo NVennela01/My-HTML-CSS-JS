@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Netflix Sign-in Page</title>
+    <link rel="preload" href="https://assets.nflxext.com/web/ffe/wp/login/client.js.02cfaaf….js" as="script">
+   <style>
+    body
+    {
+      background: black;
+      background: url("images/netflix\ img.jpg") ;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      
+    }
+    #l
+    {
+      padding-left: 15px;
+    }
+    .box
+    {
+      background-color: rgba(0,0,0,0.844);
+      width: 380px;
+      height: 530px;
+      border-radius: 10px;
+      padding: 40px;
+      position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    }
+    h1{
+      color: white;
+      padding-bottom: 15px;
+      padding-left: 4px;
+    }
+    #s
+    {
+      width: 86%;
+    padding: 12px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    font-size: 18px;
+    }
+    #o
+    {
+     text-align: 50%;
+    }
+    #u
+    {
+      width: 86%;
+      padding: 15px;
+      margin-left: 30px;
+      background-color: rgb(84,84,84);
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 17px;
+    }
+    form input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #5555554f;
+    color: #fff;
+    border: 1px solid #333;
+}
+   </style>
+  </head>
+  <body>
+    <div id="nav">
+      <a href="#"><img src="./images/netflix logo.png" alt="logo" style="width: 120px;" id="l" ></a>
+    </div>
+    <div class="box">
+      <h1>Sign In</h1>
+      <form action="">
+        <input type="text" placeholder="Email or phone number" size="30" id="e" style=" margin-left: 26px; background-color: #5555554f;"><br>
+
+        <input type="password" placeholder="password" name="psw" style= "margin-left: 26px; background-color: #5555554f;"><br>
+      </form>
+
+        <div class="controls">
+          <input type="button" value="sign-in" size="25" id="s">
+        <p style="color: rgba(255, 255, 255, 0.7); text-align: center;"id="o"> OR</p>
+        <button type="submit"  id="u">Use a Sign-in code</button>
+        <p style="color: white; text-align: center; font-size: 18px;">Forgot password?</p>
+        </div>
+
+        <div class="help">
+          <div class="remember-me">
+            <input type="checkbox" id="remember-me">
+            <label for="remember-me" style="color: white;">Remember me</label>
+          </div> <br>
+          <a href="#">Need heip?</a>
+        </div>  
+         <br>
+        <span style="color:white;">New to Netflix? Sign up now <br><br>
+
+       <small style="color: #8c8c8c;">
+         This page is protected by Google reCAPTCHA to ensure you're not a bot. 
+          <a href="#">Learn more.</a>
+       </small>
+    </div>
+  </body>
+</html

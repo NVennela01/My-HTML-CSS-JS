@@ -24,6 +24,7 @@
     <fieldset>
       <legend style="font-size: 30px;" ><b>Profile</b></legend>
       <div>
+       <form>
         <label for="First">First Name:</label>
         <input type="text" id="First" name="First" placeholder="Firstname">
        <br><br><hr>
@@ -41,8 +42,8 @@
         <input type="radio" name="gender" value="Male">Other
         <br><br><hr>
 
-        <label>Course</label>
-        <select name="" id="">
+        <label for="course">Course</label>
+        <select name="course" id="">
          <option value="">choose course</option>   
           <option value="CSE">CSE</option>
           <option value="ECE">ECE</option>
@@ -65,7 +66,7 @@
         <br><br><hr>
 
         <p>Please choose Skills</p>
-        <input type="text" list="sports">
+        <input type="text" list="Skills">
         <datalist id="Skills">
             <option value="Communication"></option>
             <option value="Team player"></option>
@@ -76,16 +77,15 @@
             <option value="Adapative"></option>
         </datalist>
         <br><br><hr>
-        
+
         <label for="mobile">Contact:</label>
         <input type="text" id="mobile" name="mobile" maxlength="10" placeholder="mobile no."><br><br><hr>
 
-        <label for="">Enter Address:</label>
-       <textarea name="" id="" cols="30" rows="5"></textarea>
+        <label for="Address">Enter Address:</label>
+       <textarea name=" Address" id="" cols="30" rows="5"></textarea>
         <br><br><hr>
-        <button type="submit" style="font-size: 18px; margin-left: 50%; background-color: rgba(225, 228, 146, 0.639) ;">
-          Register
-      </button>
+        
+        <button type="submit" style="font-size: 18px; margin-left: 50%; background-color: rgba(225, 228, 146, 0.639) ;">Register</button>
       </form>
     </div>   
     </fieldset>
